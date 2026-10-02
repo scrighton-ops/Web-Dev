@@ -1,0 +1,114 @@
+.back {
+    margin: 0px 40px 20px;
+}
+
+.back a, .apply a {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #8BAE92;
+    color: #355C4A;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    border: 2px solid #355C4A;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.back a:hover, .apply a:hover {
+    color: #8BAE92;
+    background-color: #355C4A;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.pet {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#pet-image {
+    display: block;
+    width: 600px;
+    max-width: 95%;
+    height: auto;
+    margin: 0px auto;
+    border: 4px solid #355C4A;
+    border-radius: 15px;
+}
+
+.pet h1 {
+    margin: 15px 0px 5px;
+    font-size: 64px;
+    color: #355C4A;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.pet p {
+    font-size: 20px;
+    color: #4A5A52;
+    margin: 5px 0px;
+}
+
+#days {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #F8F5EF;
+    background-color: #8BAE92;
+    border-radius: 15px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    width: 95%;
+    margin: 0 auto 40px;
+}
+
+.info section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 4px solid #355C4A;
+    border-radius: 25px;
+    box-shadow: 0 0 0 #355C4A;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info section:hover {
+    transform: translate(-8px, -8px);
+    box-shadow: 8px 8px 0 #355C4A;
+}
+
+.info h3 {
+    margin-top: 0px;
+    font-size: 24px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.info ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.info p, .info li {
+    color: #4A5A52;
+    margin: 5px 0px;
+}
+
+.apply {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.apply a {
+    padding: 15px 40px;
+    font-size: 22px;
+}
+

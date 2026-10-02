@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Adopt Me - Application</title>
+        <link rel ="stylesheet" href="styles/styles.css">
+        <link rel ="stylesheet" href="styles/apply.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/pets-banner.jpg" alt="credits -> https://stittsvillesmallanimalclinic.ca/clients-2/current-clients/pets-banner/">
+            <h1>Adopt Me</h1>
+            <div class = nav>
+                <a href = "index.html">Home</a>
+                <a href = "browse.html">Browse</a>
+                <a href = "about.html">About</a>
+            </div>
+        </header>
+
+        <h2>Adoption Application</h2>
+
+        <div class = summary>
+            <h3>Pet You Are Applying For</h3>
+            <p><strong>Name:</strong> Milo</p>
+            <p><strong>Type:</strong> Dog</p>
+            <p><strong>Breed:</strong> Beagle Mix</p>
+            <p>Adoption fee: $180</p>
+            <p>Processing fee: $40</p>
+            <p id = total><strong>Total fees (before taxes): $220</strong></p>
+        </div>
+
+        <form>
+            <section>
+                <h3>Your Information</h3>
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="e.g. Jane Smith" size = "50">
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" placeholder="e.g. jane@example.com" size = "50">
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="e.g. 555-123-4567" size = "50">
+                <label for="address">Home address:</label>
+                <input type="text" id="address" name="address" placeholder="e.g. 123 Main St, Toronto, ON" size = "50">
+                <label for="residents">Number of residents in the home:</label>
+                <input type="number" id="residents" name="residents" min="1" placeholder="e.g. 3" size = "50">
+            </section>
+
+            <section>
+                <h3>Current Pets in Your Home</h3>
+                <label for="currentpets">Tell us about your other pets:</label>
+                <input type = "text" id = "currentpets" size="70" placeholder="(e.g., List other pets that you have (species, age, health))">
+            </section>
+
+            <section>
+                <h3>Pet Experience</h3>
+                <label for="experience">Do you have experience with this kind of pet?</label>
+                <select id="experience" name="experience">
+                    <option>None</option>
+                    <option>Some</option>
+                    <option>Extensive</option>
+                </select>
+                <label for="living">Where will this pet primarily live?</label>
+                <select id="living" name="living">
+                    <option>Indoor</option>
+                    <option>Outdoor</option>
+                    <option>Both</option>
+                </select>
+            </section>
+
+            <section>
+                <h3>Support Us</h3>
+                <label for="donation">Optional donation:</label>
+                <select id="donation" name="donation">
+                    <option>$0</option>
+                    <option>$10</option>
+                    <option>$25</option>
+                    <option>$50</option>
+                </select>
+            </section>
+
+            <input type="checkbox" id="care" name="care">
+            <label for="care">I agree to provide proper care, food, shelter and medical attention for the pet.</label>
+            <br>
+            <input type="checkbox" id="understand" name="understand">
+            <label for="understand">I understand that this application does not guarantee adoption.</label>
+            <button type="submit" disabled>Submit Application</button>
+        </form>
+
+        <footer>
+            <p>&copy;2026 Adopt Me </p> <div id="slogan"><p> Give A Forever Home. Find A Forever Friend</p></div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap');
+
+body {
+    background-color: #F8F5EF;
+    font-family: 'Poppins', sans-serif;
+    color: #2D332F;
+}
+
+body header{
+    background: linear-gradient(to bottom, #355C4A calc(100% - 40px), #F8F5EF 100%);
+    padding-bottom: 50px;
+}
+body header h1 {
+    font-weight: 1000;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px #888;
+    color:#F8F5EF;
+    text-align: center;
+    text-decoration: underline 9px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+body footer {
+    background-color: #355C4A;
+}
+
+body header img {
+    width: 100%;
+    height: auto;
+    mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.nav a{
+    margin: 5px 30px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #355C4A;
+    border-radius: 15px;
+    border: 2px #d9e0da00;
+    background-color: #8BAE92;
+    font-size: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease;   
+    font-weight: 700;
+    display: inline-block;          
+}
+
+.nav a:hover {
+    transform: scale(1.1);   
+}
+
+body footer {
+    padding: 20px 0;
+}
+
+body footer p {
+    text-align: center;
+    margin: 0;
+    padding: 6px;
+    color: #F8F5EF;
+    font-size: 15px;
+    letter-spacing: 1px;
+    opacity: 0.85;
+}
+
+#slogan {
+    width: 60%;
+    margin: 10px auto 0;
+    padding-top: 10px;
+    border-top: 1px solid rgba(248, 245, 239, 0.3);
+}
+
+#slogan p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F8F5EF;
+    opacity: 1;
+    letter-spacing: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,126 @@
+body h2 {
+    text-align: center;
+    border-top: 4px solid #355C4A;
+    padding-top: 15px;
+    font-size: 24px;
+    color: #355C4A;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.summary {
+    width: 700px;
+    max-width: 95%;
+    margin: 0 auto 40px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 0 #355C4A;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.summary:hover {
+    transform: translate(-8px, -8px);
+    box-shadow: 8px 8px 0 #355C4A;
+}
+
+.summary h3 {
+    margin-top: 0px;
+    font-size: 20px;
+    color: #355C4A;
+    text-align: center;
+}
+
+.summary p {
+    margin: 5px 0px;
+    color: #4A5A52;
+}
+
+#total {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 2px solid #8BAE92;
+    color: #355C4A;
+}
+
+form {
+    width: 700px;
+    max-width: 95%;
+    margin: 0 auto 40px;
+    padding: 30px 50px 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-top: 10px solid #355C4A;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #B0B0B0;
+}
+
+form h3 {
+    margin: 0px 0px 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #355C4A;
+}
+
+form section label {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4A5A52;
+}
+
+form section input, form section select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #2D332F;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #355C4A;
+}
+
+form section input:focus, form section select:focus {
+    outline: none;
+    border-bottom-color: #8BAE92;
+}
+
+
+form button {
+    display: block;
+    margin: 30px auto 0px;
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #355C4A;
+    background-color: #8BAE92;
+    border: 2px solid #355C4A;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+form button:hover:not(:disabled) {
+    transform: scale(1.1);
+    background-color: #355C4A;
+    color: #F8F5EF;
+}
+
+form button:disabled {
+    background-color: #E0E0E0;
+    color: #9A9A9A;
+    border: 2px dashed #B0B0B0;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
